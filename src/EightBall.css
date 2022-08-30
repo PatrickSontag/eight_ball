@@ -1,0 +1,20 @@
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball-text {
+    color: black;
+    height: 90px;
+    width: 180px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
