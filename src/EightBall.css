@@ -1,20 +1,24 @@
-.circle {
-    width: 300px;
-    height: 300px;
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 191, 191);
+    height: 100vh;
+    position: relative;
+}
+
+.eightball {
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     background-color: black;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .ball-text {
-    color: black;
-    height: 90px;
-    width: 180px;
-    background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: white;
+    font-size: 25px;
+    position: absolute;
 }

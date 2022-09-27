@@ -3,9 +3,9 @@ import ANSWERS from "./answers";
 
 const EightBall = () => {
     return(
-        <div>
-            <div class="circle">
-                <div class="ball-text">Think of a Question</div>
+        <div className="app-container">
+            <div className="eightball">
+                <div className="ball-text">Think of a Question</div>
             </div>
         </div>
     )
