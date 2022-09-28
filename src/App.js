@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './EightBall.css';
 import EightBall from './EightBall';
 
