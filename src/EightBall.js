@@ -14,13 +14,16 @@ const EightBall = () => {
         console.log("response:", response, "response.color", response.color, "response.msg", response.msg);
     }
     return(
-        <div className="app-container">
-            <button className="btn" onClick={handleClick}>
-                <div className={`eightball ${color}`}>
-                    <div className="ball-text">{ message }</div>
-                </div>
-            </button>
-        </div>
+        <>
+            <div className="title">MAGIC EIGHTBALL</div>
+            <div className="app-container">
+                <button className="btn" onClick={handleClick}>
+                    <div className={`eightball ${color}`}>
+                        <div className="ball-text">{ message }</div>
+                    </div>
+                </button>
+            </div>
+        </>
     )
 }
 
